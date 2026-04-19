@@ -1,5 +1,4 @@
 #include "raylib.h"
-#include "resource_dir.h"
 #include <iostream>
 
 class Circle{
@@ -52,7 +51,6 @@ int main ()
 
 	SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
 	InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "holy raylib");
-	SearchAndSetResourceDir("resources");
 
 	SetTargetFPS(60);
 

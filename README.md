@@ -1,6 +1,10 @@
-Made using Raylib  
+GUI Made using Raylib  
 
-ball bouncing and stuff in c++  
-(also i dont really know waht im actually suppose to do when uploading  
-can someone teach mme  
-cuz i think upl;oading the entire library of raylib is not really what i should be doing)
+How to use:  
+1. Install [Raylib](https://github.com/raysan5/raylib)  
+2. Clone this repo
+3. Compile with
+`g++ main.cpp -o game -lraylib -lGL -lm -lpthread -ldl -lrt -lX11`
+
+Problems:
+Theres no friction lol
